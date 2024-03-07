@@ -16,6 +16,6 @@ Godot es un motor de desarrollo de videojuegos de código abierto y gratuito que
   </div>
 <br>
 
-
-#### David Elias González García - Generación 45 de PROTECO
-
+### Taller impartido por:
+#### [David Elias González García](https://github.com/se2510) - Generación 44 de PROTECO
+#### [David Julian Muñoz Norberto](https://github.com/davidjulian7) - Generación 45 de PROTECO
