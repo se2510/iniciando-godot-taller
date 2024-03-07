@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds7y0hmpcjvoy"]
+
+[ext_resource type="Texture2D" uid="uid://8hp62twgsvq0" path="res://ship.png" id="1_rygnm"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yduge"]
+radius = 42.0
+height = 214.0
+
+[node name="navesita" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 3)
+shape = SubResource("CapsuleShape2D_yduge")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_rygnm")

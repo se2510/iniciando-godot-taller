@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://ffseyveowuvy"]
+
+[ext_resource type="Script" path="res://1-variables-tiposdatos.gd" id="1_26oj5"]
+[ext_resource type="Script" path="res://2-vectores.gd" id="2_fv6lm"]
+[ext_resource type="PackedScene" uid="uid://ds7y0hmpcjvoy" path="res://navesita.tscn" id="3_tgiwg"]
+[ext_resource type="Script" path="res://navesita.gd" id="4_myqi2"]
+
+[node name="Main" type="Node"]
+
+[node name="variables-tiposdatos" type="Node" parent="."]
+script = ExtResource("1_26oj5")
+
+[node name="vectores" type="Node" parent="."]
+script = ExtResource("2_fv6lm")
+
+[node name="navesita" parent="." instance=ExtResource("3_tgiwg")]
+position = Vector2(533, 355)
+script = ExtResource("4_myqi2")
